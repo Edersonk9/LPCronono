@@ -52,17 +52,17 @@ const ContactSection = () => {
             <div className="mt-10">
               <h3 className="text-lg font-semibold mb-4">Siga-nos</h3>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all" aria-label="Instagram">
-                  <i className="ri-instagram-line"></i>
+                <a href="#" className="text-gray-300 hover:text-primary transition-colors" aria-label="Instagram">
+                  <i className="ri-instagram-line text-xl"></i>
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all" aria-label="Facebook">
-                  <i className="ri-facebook-line"></i>
+                <a href="#" className="text-gray-300 hover:text-primary transition-colors" aria-label="Facebook">
+                  <i className="ri-facebook-line text-xl"></i>
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all" aria-label="LinkedIn">
-                  <i className="ri-linkedin-line"></i>
+                <a href="#" className="text-gray-300 hover:text-primary transition-colors" aria-label="LinkedIn">
+                  <i className="ri-linkedin-line text-xl"></i>
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all" aria-label="YouTube">
-                  <i className="ri-youtube-line"></i>
+                <a href="#" className="text-gray-300 hover:text-primary transition-colors" aria-label="YouTube">
+                  <i className="ri-youtube-line text-xl"></i>
                 </a>
               </div>
             </div>
