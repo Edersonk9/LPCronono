@@ -66,7 +66,7 @@ const ContactForm = () => {
               <FormControl>
                 <Input 
                   placeholder="Seu nome" 
-                  className="w-full px-4 py-2 rounded-lg border focus:border-primary" 
+                  className="w-full px-4 py-2 rounded-lg border focus:border-primary bg-gray-800" 
                   {...field} 
                 />
               </FormControl>
@@ -85,7 +85,7 @@ const ContactForm = () => {
                 <Input 
                   type="email" 
                   placeholder="exemplo@email.com" 
-                  className="w-full px-4 py-2 rounded-lg border focus:border-primary" 
+                  className="w-full px-4 py-2 rounded-lg border focus:border-primary bg-gray-800" 
                   {...field} 
                 />
               </FormControl>
@@ -102,7 +102,7 @@ const ContactForm = () => {
               <FormLabel className="text-sm font-medium text-gray-600">Tipo de contato</FormLabel>
               <Select onValueChange={field.onChange} defaultValue={field.value}>
                 <FormControl>
-                  <SelectTrigger className="w-full px-4 py-2 rounded-lg border focus:border-primary">
+                  <SelectTrigger className="w-full px-4 py-2 rounded-lg border focus:border-primary bg-gray-800">
                     <SelectValue placeholder="Selecione..." />
                   </SelectTrigger>
                 </FormControl>
@@ -126,7 +126,7 @@ const ContactForm = () => {
               <FormControl>
                 <Textarea 
                   placeholder="Digite sua mensagem aqui..." 
-                  className="w-full px-4 py-2 rounded-lg border focus:border-primary min-h-[120px]" 
+                  className="w-full px-4 py-2 rounded-lg border focus:border-primary min-h-[120px] bg-gray-800" 
                   {...field} 
                 />
               </FormControl>
