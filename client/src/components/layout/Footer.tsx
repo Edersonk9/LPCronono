@@ -59,7 +59,7 @@ const Footer = () => {
               Acesse sua área exclusiva para consultar seus resultados e certificados.
             </p>
             <a href="#" className="inline-flex items-center px-6 py-3 bg-primary rounded-lg text-white font-medium hover:bg-opacity-90 transition-all">
-              <i className="ri-user-line mr-2"></i> Entrar / Cadastrar
+              <i className="ri-user-line mr-2"></i> Entrar
             </a>
             
             <div className="mt-6">
