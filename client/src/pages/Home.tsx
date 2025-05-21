@@ -5,7 +5,6 @@ import ServicesSection from "@/components/sections/ServicesSection";
 import FeaturedEventSection from "@/components/sections/FeaturedEventSection";
 import UpcomingEventsSection from "@/components/sections/UpcomingEventsSection";
 import PastEventsSection from "@/components/sections/PastEventsSection";
-import StatsSection from "@/components/sections/StatsSection";
 import ContactSection from "@/components/sections/ContactSection";
 import CTASection from "@/components/sections/CTASection";
 
@@ -19,7 +18,6 @@ export default function Home() {
         <FeaturedEventSection />
         <UpcomingEventsSection />
         <PastEventsSection />
-        <StatsSection />
         <ContactSection />
         <CTASection />
       </main>
