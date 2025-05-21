@@ -31,13 +31,14 @@ const Header = () => {
             <span className="text-2xl font-heading font-bold">Cronono</span>
           </Link>
           
-          <div className="hidden md:flex items-center space-x-4 ml-auto">
-            <nav className="flex items-center space-x-1">
-              <a href="#servicos" className="nav-link">Serviços</a>
-              <a href="#eventos" className="nav-link">Eventos</a>
-              <a href="#galeria" className="nav-link">Galeria</a>
-              <a href="#contato" className="nav-link">Contato</a>
-            </nav>
+          <nav className="hidden md:flex items-center space-x-1">
+            <a href="#servicos" className="nav-link">Serviços</a>
+            <a href="#eventos" className="nav-link">Eventos</a>
+            <a href="#galeria" className="nav-link">Galeria</a>
+            <a href="#contato" className="nav-link">Contato</a>
+          </nav>
+          
+          <div className="flex items-center space-x-4">
             <a href="#" className="hidden md:flex items-center text-sm font-semibold bg-primary text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all">
               <i className="ri-user-line mr-1"></i> Entrar
             </a>
