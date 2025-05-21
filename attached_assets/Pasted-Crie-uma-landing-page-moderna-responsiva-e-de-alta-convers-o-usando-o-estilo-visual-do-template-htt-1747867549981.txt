@@ -1,0 +1,65 @@
+Crie uma landing page moderna, responsiva e de alta conversão usando o estilo visual do template https://cult-landing-page.vercel.app/?ref=21st.
+
+Nome do site: Cronono  
+Segmento: Cronometragem profissional de eventos esportivos  
+Público-alvo: Organizadores de corridas de rua e ciclismo, além de atletas participantes.  
+Objetivo principal: Divulgar os serviços de cronometragem e servir como vitrine de eventos, permitindo aos atletas se cadastrarem ou visualizarem resultados.
+
+📍 Estrutura da landing page:
+
+1. **Seção Hero**
+   - Título forte: "Cronometragem Profissional para Corridas e Ciclismo"
+   - Subtítulo: "Precisão, tecnologia e confiança para seus eventos esportivos"
+   - Botões de ação:
+     - "Ver próximos eventos"
+     - "Conheça nossos serviços"
+   - No canto superior direito: botão "Entrar / Cadastrar atleta"
+
+2. **Seção de Serviços**
+   - Título: "O que oferecemos"
+   - Lista de serviços com ícones:
+     - Cronometragem com chip RFID
+     - Resultados em tempo real online
+     - Painel de atleta personalizado
+     - Suporte técnico no dia do evento
+     - Integração com plataformas de inscrição
+
+3. **Evento em Destaque**
+   - Nome, data e local do próximo evento grande
+   - Imagem ou destaque visual
+   - Botão: "Ver detalhes"
+
+4. **Eventos Futuros**
+   - Lista em cards com miniatura, nome, data e local
+   - Botão em cada card: "Saiba mais"
+
+5. **Eventos Passados**
+   - Galeria ou lista com imagem, nome do evento, data
+   - Link para visualizar resultados
+
+6. **Seção de Contato**
+   - Título: "Entre em contato"
+   - Subtítulo: "Fale conosco para organizar seu evento ou tirar dúvidas"
+   - Campos de formulário:
+     - Nome
+     - E-mail
+     - Tipo de contato (Organizador ou Atleta)
+     - Mensagem
+   - Botão: "Enviar mensagem"
+   - Exibir ícone de WhatsApp e e-mail de contato como alternativa rápida
+
+7. **Call-to-Action Final**
+   - Título: "Organize seu evento com a Cronono"
+   - Botão: "Solicitar orçamento"
+
+8. **Rodapé**
+   - Logo, redes sociais, e-mail e WhatsApp
+   - Links para termos e política
+   - Botão "Entrar / Cadastrar atleta"
+  
+🎨 Estilo visual:
+- Tipografia moderna e legível
+- Paleta: preto, branco e laranja esportivo
+- Layout limpo, centrado e com foco em conversão
+- Imagens de corredores e ciclistas em ação
+- Cards com sombra suave e cantos arredondados
