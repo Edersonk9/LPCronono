@@ -39,7 +39,7 @@ const Header = () => {
           </nav>
           
           <div className="flex items-center space-x-4">
-            <a href="#" className="hidden md:flex items-center text-sm font-semibold bg-secondary px-4 py-2 rounded-lg hover:bg-gray-200 transition-all">
+            <a href="#" className="hidden md:flex items-center text-sm font-semibold bg-primary text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all">
               <i className="ri-user-line mr-1"></i> Entrar
             </a>
             
@@ -62,7 +62,7 @@ const Header = () => {
             <a href="#eventos" className="text-gray-dark font-medium hover:text-primary transition-all" onClick={closeMobileMenu}>Eventos</a>
             <a href="#galeria" className="text-gray-dark font-medium hover:text-primary transition-all" onClick={closeMobileMenu}>Galeria</a>
             <a href="#contato" className="text-gray-dark font-medium hover:text-primary transition-all" onClick={closeMobileMenu}>Contato</a>
-            <a href="#" className="flex items-center text-sm font-semibold bg-secondary px-4 py-2 rounded-lg hover:bg-gray-200 transition-all" onClick={closeMobileMenu}>
+            <a href="#" className="flex items-center text-sm font-semibold bg-primary text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all" onClick={closeMobileMenu}>
               <i className="ri-user-line mr-1"></i> Entrar
             </a>
           </nav>
