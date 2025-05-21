@@ -3,7 +3,7 @@ import ContactForm from "@/components/ui/contact-form";
 
 const ContactSection = () => {
   return (
-    <section id="contato" className="py-16 md:py-24">
+    <section id="contato" className="py-16 md:py-24 bg-gray-900 text-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <motion.div
@@ -13,7 +13,7 @@ const ContactSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-heading font-bold">Entre em contato</h2>
-            <p className="mt-4 text-gray-600">
+            <p className="mt-4 text-gray-300">
               Fale conosco para organizar seu evento ou tirar dúvidas sobre nossos serviços de cronometragem
             </p>
             
@@ -73,7 +73,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-white rounded-xl shadow-lg p-8"
+            className="bg-gray-800 rounded-xl shadow-lg p-8 border border-gray-700"
           >
             <h3 className="text-xl font-heading font-semibold mb-6">Envie sua mensagem</h3>
             <ContactForm />
