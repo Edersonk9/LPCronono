@@ -1,30 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Redirecionando para o seu aplicativo...</title>
-  <script type="text/javascript">
-    // Este script garante que o seu SPA sempre carregue o index.html,
-    // mesmo que o usuário acesse uma sub-rota diretamente ou atualize a página.
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecionando para o seu aplicativo....</title>
+    <script type="text/javascript">
+      // Este script garante que o seu SPA sempre carregue o index.html,
+      // mesmo que o usuário acesse uma sub-rota diretamente ou atualize a página.
 
-    // Obtém o nome do repositório a partir da URL.
-    // Ex: para "seu-usuario.github.io/meu-repo/", 'meu-repo' será extraído.
-    const repoName = window.location.pathname.split('/')[1];
+      // Obtém o nome do repositório a partir da URL.
+      // Ex: para "seu-usuario.github.io/meu-repo/", 'meu-repo' será extraído.
+      const repoName = window.location.pathname.split("/")[1];
 
-    // Constrói o caminho base do seu aplicativo (ex: "/meu-repo/").
-    // Isso deve corresponder ao 'base' que você definiu no vite.config.js.
-    const basePath = `/${repoName}/`;
+      // Constrói o caminho base do seu aplicativo (ex: "/meu-repo/").
+      // Isso deve corresponder ao 'base' que você definiu no vite.config.js.
+      const basePath = `/${repoName}/`;
 
-    // Redireciona o navegador para a URL base do seu aplicativo.
-    // O router do seu SPA então lerá a rota real do URL e navegará para ela.
-    window.location.replace(window.location.origin + basePath);
-  </script>
-</head>
-<body>
-  <p>Se você não for redirecionado automaticamente, por favor, clique <a id="redirectLink">aqui</a>.</p>
-  <script>
-    // Apenas para garantir que o link manual funcione caso o JS falhe.
-    document.getElementById('redirectLink').href = window.location.origin + `/${window.location.pathname.split('/')[1]}/`;
-  </script>
-</body>
+      // Redireciona o navegador para a URL base do seu aplicativo.
+      // O router do seu SPA então lerá a rota real do URL e navegará para ela.
+      window.location.replace(window.location.origin + basePath);
+    </script>
+  </head>
+  <body>
+    <p>
+      Se você não for redirecionado automaticamente, por favor, clique
+      <a id="redirectLink">aqui</a>.
+    </p>
+    <script>
+      // Apenas para garantir que o link manual funcione caso o JS falhe.
+      document.getElementById("redirectLink").href =
+        window.location.origin + `/${window.location.pathname.split("/")[1]}/`;
+    </script>
+  </body>
 </html>
